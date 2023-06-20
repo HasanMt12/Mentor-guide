@@ -7,7 +7,13 @@ import { FiInstagram } from "react-icons/fi";
 import { GoLocation } from "react-icons/go";
 import { FaWhatsapp } from "react-icons/fa"
 import sampleImage from '../../assets/Find a Sector.jpg'
+
+import './HomePage.css'
 const SamplePage = () =>{
+
+  <style>
+
+</style>
     return (
         
         <div className="relative mb-10 flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0">
@@ -56,8 +62,11 @@ const SamplePage = () =>{
             <FaWhatsapp  className='text-[#334F5D] text-sm'></FaWhatsapp>
           </li>  
         </ul>
+        
         </div>
+      
       </div>
+      
     )
 }
 export default SamplePage;

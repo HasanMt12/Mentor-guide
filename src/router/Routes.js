@@ -21,6 +21,7 @@ import UserDashboard from "../pages/Dashboard/All users/UserDashboard";
 import DashboardInitial from "../shared/Dashboard/DashboardInitial";
 import Courses from "../shared/Dashboard/Courses";
 import Training from "../shared/Dashboard/Training";
+import Form from "../pages/HomePage/Form";
 
 
 
@@ -75,7 +76,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/training',
-                element: <Training></Training>
+                element: <Form></Form>
             },
 
 
