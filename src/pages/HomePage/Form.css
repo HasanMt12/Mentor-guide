@@ -18,13 +18,14 @@ label {
 }
 
 input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #095398;
     color: white;
-    padding: 12px 20px;
+    padding: 12px 40px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     float: right;
+    font-weight: 500;
 }
 
 input[type=submit]:hover {
